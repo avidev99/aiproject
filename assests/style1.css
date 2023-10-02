@@ -1,0 +1,180 @@
+
+body{
+    background-color: blackwhite;
+    color:black;
+    margin: 0px;
+}
+@font-face {
+    font-family: Poppins;
+    src: URL('./assests/Poppins-Thin.ttf') format('truetype')
+}
+@font-face {
+    font-family: Work Sans;
+    src: URL('./assests/WorkSans-VariableFont_wght.ttf') format('truetype')
+}
+@font-face {
+    font-family: Syne;
+    src: URL('./assests/Syne-VariableFont_wght.ttf') format('truetype')
+}
+#para1{
+    text-align:left;
+    color:white;
+}
+.font_Poppins
+{
+    font-family: Poppins ;
+    font-size: 40px;
+    font-weight: 275;
+    margin: 0px;
+    padding: 0px;
+
+}
+.font_Poppins12
+{
+    font-family: Poppins ;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    color:#626262;
+
+
+}
+.font_WorkSans18
+{
+    font-family: Work Sans;
+    font-size:18px;
+    font-weight: 400;
+}
+.font_WorkSans14
+{
+    font-family: Work Sans;
+    font-size:14px;
+    font-weight: 400;
+}
+.font_WorkSans300
+{
+    font-family: Work Sans;
+    font-size:14px;
+    font-weight: 300;
+}
+.font_Syne
+{
+    font-family: Syne;
+    font-size:135px;
+    font-weight: 800;
+
+}
+.font_Syne60090
+{
+    font-family: Syne;
+    font-size:90px;
+    font-weight: 600;
+
+}
+.font_Syne60026
+{
+    font-family: Syne;
+    font-size:26px;
+    font-weight: 600;
+
+}
+
+.navbar{
+    padding-left: 0px;
+
+}
+.navbar ul{
+    overflow:none;
+    margin:0px;
+}
+.navbar li{
+    float:left;
+    list-style:none;
+    margin:3px 5px;
+}
+.navbar li a{
+    padding:3px 3px;
+    text-decoration:none;
+    color:white;
+    top:100%;
+}
+.navbar li a:hover{
+    color:yellow;
+}
+.search{
+    float:right;
+    color:white;
+    padding:10px 20px;
+}
+.navbar input{
+    border-radius:4px;
+    width:129px;
+}
+.fl ul li{display:none;float:none;margin-block: initial;}
+.fl:hover ul li{display:block;float:none;margin:0px}
+#boyimage {
+    position:absolute;
+    width: 432px;
+    height: 654.95px;
+    top:133.05px;
+    left:899px;
+
+}
+#starimage {
+    position:absolute;
+    width: 367px;
+    height: 371.51px;
+    top:129px;
+    left:1010px;
+    border:1px;
+
+}
+
+#h1font {
+margin-top:-30px;
+}
+.h1class{
+position:absolute;
+    width: 689px;
+    height: 151px;
+    top:280px;
+    left:115px;
+    border:1px;
+}
+.h2class{
+position:absolute;
+    width: 710px;
+    height: 144x;
+    top:396px;
+    left:424px;
+    border:20px;
+  
+    color: white;
+text-shadow: 1px 0 0 #999, 0 -1px 0 #999, 0 1px 0 #999, -1px 0 0 #999;
+    
+    
+}
+.h3class{
+position:absolute;
+    width: 527px;
+    height: 103px;
+    top:505px;
+    left:187px;
+    border:1px;
+}
+.square{
+background-color: #F07E15;
+position:absolute;
+    width: 993px;
+    height: 354.3px;
+    top:344.62px;
+    left:447px;     
+    z-index: -1;
+}
+#vector1{ color:white}
+li{padding-left:70px}
+.c_catg a{color:black;text-decoration: none;font-family: Work Sans;  font-size:18px;font-weight: 400;}
+.c_catg a:hover{ color:black; font-size: 20px; text-decoration: none; font-family: Syne;
+    font-size:26px;
+    font-weight: 600;}

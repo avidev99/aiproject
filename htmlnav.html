@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <style>
+        body{
+            background-color: black;
+            color:white;
+            margin: 0px;
+        }
+        @font-face {
+            font-family: Poppins;
+            src: URL('./assests/Poppins-Thin.ttf') format('truetype')
+        }
+        @font-face {
+            font-family: Work Sans;
+            src: URL('./assests/WorkSans-VariableFont_wght.ttf') format('truetype')
+        }
+        @font-face {
+            font-family: Syne;
+            src: URL('./assests/Syne-VariableFont_wght.ttf') format('truetype')
+        }
+        #para1{
+            text-align:left;
+            color:white;
+        }
+        .font_Poppins
+        {
+            font-family: Poppins ;
+            font-size: 40px;
+            font-weight: 275;
+            margin: 0px;
+            padding: 0px;
+       
+        }
+        .font_Poppins12
+        {
+            font-family: Poppins ;
+            font-size: 12px;
+            font-weight: 400;
+            margin: 0px;
+            padding: 0px;
+            color:#626262;
+     
+        
+        }
+        .font_WorkSans18
+        {
+            font-family: Work Sans;
+            font-size:18px;
+            font-weight: 400;
+        }
+        .font_WorkSans14
+        {
+            font-family: Work Sans;
+            font-size:14px;
+            font-weight: 400;
+        }
+        .font_WorkSans300
+        {
+            font-family: Work Sans;
+            font-size:14px;
+            font-weight: 300;
+        }
+        .font_Syne
+        {
+            font-family: Syne;
+            font-size:135px;
+            font-weight: 800;
+        
+        }
+        .navbar{
+            padding-left: 0px;
+       
+        }
+        .navbar ul{
+            overflow:none;
+            margin:0px;
+        }
+        .navbar li{
+            float:left;
+            list-style:none;
+            margin:3px 5px;
+        }
+        .navbar li a{
+            padding:3px 3px;
+            text-decoration:none;
+            color:white;
+            top:100%;
+        }
+        .navbar li a:hover{
+            color:yellow;
+        }
+        .search{
+            float:right;
+            color:white;
+            padding:10px 20px;
+        }
+        .navbar input{
+            border-radius:4px;
+            width:129px;
+        }
+        .fl ul li{display:none;float:none;margin-block: initial;}
+        .fl:hover ul li{display:block;float:none;margin:0px}
+        #boyimage {
+            position:absolute;
+            width: 432px;
+            height: 654.95px;
+            top:133.05px;
+            left:899px;
+
+        }
+        #starimage {
+            position:absolute;
+            width: 367px;
+            height: 371.51px;
+            top:129px;
+            left:1010px;
+            border:1px;
+       
+        }
+        
+    #h1font {
+       margin-top:-30px;
+    }
+    .h1class{
+        position:absolute;
+            width: 689px;
+            height: 151px;
+            top:280px;
+            left:115px;
+            border:1px;
+    }
+    .h2class{
+        position:absolute;
+            top:450px;
+            left:424px;
+               
+    }
+    .h3class{
+        position:absolute;
+            width: 527px;
+            height: 103px;
+            top:505px;
+            left:187px;
+            border:1px;
+    }
+    .square{
+        background-color: #F07E15;
+        position:absolute;
+            width: 993px;
+            height: 354.3px;
+            top:344.62px;
+            left:447px;     
+            z-index: -1;
+    }
+    #vector1{ color:white}
+    li{padding-left:70px}
+   
+    </style>
+</head>
+<body>
+  
+    <div style="display:inline;width:100%;color: #626262;" class="font_Poppins12">
+        <div style="width:50%">
+            <img  style="float:left;padding-right:15px;margin-top:20px" src="./assests/vehicle.png"></img>
+            <p style="float:left;padding-right:20px" >Free Delivery</p>
+            <p style="float:left;padding-right:20px">|</p>
+            <p style="float:left">  Return Policy</p>
+        </div>
+        <div style="display: inline;float:right;width:15%;padding-right:10px" >
+            <p style="display: inline-block;padding-right: 10px;"> Login </p>
+            <p style="display: inline-block;padding-right: 10px"> Follow Us</p>
+            <img   src="./assests/Vector.png"></img>
+            <img   src="./assests/vector1.png"></img>
+            <img   src="./assests/vector2.png"></img>
+            <img  src="./assests/group.png"></img>
+            </p>
+        </div>
+        
+    </div>
+    <div style="display:inline-block;width:100%;">
+        <p  style="display:inline;float:left" class="font_Poppins"  >ShopKart</p>
+        <p  style="display:inline;float:right;margin:0px;padding-top:40px" class="font_WorkSans14">WISHLIST(0)   BAG(0)</p>
+        <hr style="width:100%" ></hr>
+    </div>
+
+    <div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#" class="font_WorkSans18" id="home">HOME1</a></li>
+                <li><a href="#" class="font_WorkSans18" id="about">ABOUT1</a></li>
+                <li class="fl"><a href="#" id="product" class="font_WorkSans18">OUR PRODUCTS1</a>
+                    <ul style="color:#FFFFFF" class="font_WorkSans300" style="display:block;padding:0px;">
+                        <li ><a href="#" id="p1" style="margin:-110px">PRODUCT 1</a></li>
+                        <li><a href="#" id="p2" style="margin:-110px">PRODUCT 2</a></li>
+                        <li><a href="#" id="p3" style="margin:-110px">PRODUCT 3</a></li>
+                        <li><a href="#" id="p4" style="margin:-110px">PRODUCT 4</a></li>
+                    </ul>
+                    
+                </li>
+                <li><a href="#" class="font_WorkSans18" id="contact" class="font_WorkSans18">CONTACT US1</a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h1 id="h1font" class="h1class font_Syne">Fresh</h1>
+        <!--<h1 id="h1font"  class="h2class font_Syne">2020</h1>-->
+        <img class="h2class" id="h1font" src="./assests/2022.png" alt="no image"></img>
+        <h1 id="h1font" class="h3class font_Syne">Look</h1>
+        
+    </div>
+    <div class="square"></div>
+
+     
+    
+    <div>
+    <img id="starimage" src="./assests/Star 3.png" >
+    <img id="boyimage" src="./assests/jessica-radanavong-IchPBHFD0pw-unsplash.png" >
+
+    </div>
+    <div style="position:absolute; width:976px;top:665px;left:115px ">
+        <hr >
+        <p style="border:1px solid white;width:80px">See More ?</p>
+    </div>
+    
+    
+</body>
+<script>
+const navbar = [
+{ name: 'Home', id: 'home'},
+{ name: 'About', id: 'about' },
+{ name: 'Our Products', id: 'product', child: [
+{ name: 'Product 1', id: 'p1'},
+{ name: 'Product 2', id: 'p2' },
+{ name: 'Product 3', id: 'p3'},
+{ name: 'Product 4', id: 'p4' },
+] },
+{ name: 'Contact Us', id: 'contact'},
+];
+
+for (let i = 0; i < navbar.length; i++) 
+    {   
+    
+     document.getElementById(navbar[i].id).innerHTML=navbar[i].name.toUpperCase();
+ 
+    }
+</script>
+</html>
